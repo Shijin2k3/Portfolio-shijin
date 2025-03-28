@@ -20,8 +20,8 @@ const Navbar = ({openNav}) => {
                 to={path} spy={true} offset={-100} smooth={true}>{link}</Link>
               ))}
             </div>
-            <div className='flex items-center space-x-4'>
-                <button className='md:px-12 md:py-2.5 px-8 py-2 text-black
+            <div className='flex  items-center space-x-4'>
+                <button className='hidden md:block md:px-12 md:py-2.5 px-8 py-2 text-black
                  text-base  bg-white hover:bg-gray-200
                   transition-all duration-200 rounded-lg'>Connect Me</button>
 
