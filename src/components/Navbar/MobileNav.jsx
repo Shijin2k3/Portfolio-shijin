@@ -1,7 +1,8 @@
 import React from 'react'
-import { navItems } from '../data/data'
+
 import { Link } from 'react-scroll'
 import { CgClose } from 'react-icons/cg'
+import { navItems } from '../../data/data';
 
 const MobileNav = ({closeNav,showNav}) => {
     const navOpen=showNav?"translate-x-0":"translate-x-[-100%]";

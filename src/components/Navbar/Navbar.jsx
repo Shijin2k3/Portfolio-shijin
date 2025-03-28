@@ -1,7 +1,8 @@
 import React from 'react'
-import { navItems } from '../data/data'
+
 import { Link } from 'react-scroll'
 import { HiMiniBars3BottomLeft } from 'react-icons/hi2'
+import { navItems } from '../../data/data'
 
 const Navbar = ({openNav}) => {
   
@@ -13,7 +14,9 @@ const Navbar = ({openNav}) => {
             </div>
             <div className='hidden lg:flex items-center space-x-10'>
               {navItems.map(({link,path})=>(
-                <Link key={path} className="relative uppercase text-white text-base font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-300 after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition duration-300 after:origin-right"
+                <Link key={path} className="relative uppercase text-white text-base font-medium w-fit block after:block
+                 after:content-[''] after:absolute after:h-[3px] after:bg-cyan-300 after:w-full after:scale-x-0 hover:after:scale-x-100
+                  after:transition duration-300 after:origin-right"
                 to={path} spy={true} offset={-100} smooth={true}>{link}</Link>
               ))}
             </div>
