@@ -16,7 +16,7 @@ const Navbar = ({openNav}) => {
               {navItems.map(({link,path})=>(
                 <Link key={path} className="relative uppercase text-white text-base font-medium w-fit block after:block
                  after:content-[''] after:absolute after:h-[3px] after:bg-cyan-300 after:w-full after:scale-x-0 hover:after:scale-x-100
-                  after:transition duration-300 after:origin-right"
+                  after:transition duration-300 after:origin-right cursor-pointer"
                 to={path} spy={true} offset={-100} smooth={true}>{link}</Link>
               ))}
             </div>
