@@ -13,7 +13,7 @@ const Hero = () => {
                bg-clip-text text-2xl tracking-tight text-transparent'>
                 Full Stack Web Developer
               </span>
-              <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>I'am a passionate Full Stack Web Developer, I specialize in creating dynamic and responsive web applications 
+              <p className=' max-w-xl text-lg mb-8 py-6 font-light tracking-tighter'>I'am a passionate Full Stack Web Developer, I specialize in creating dynamic and responsive web applications 
                 that deliver exceptional user experiences. With a strong foundation in both front-end technologies like HTML,
                  CSS, and JavaScript, and back-end frameworks such as Node.js and Express, I am adept at building seamless, scalable solutions</p>
             </div>

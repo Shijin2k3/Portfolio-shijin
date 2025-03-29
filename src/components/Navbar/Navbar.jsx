@@ -10,13 +10,13 @@ const Navbar = ({openNav}) => {
     <div className='w-full h-[12vh] fixed bg-black text-white transition-all duration-200 z-[1000]'>
         <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
             <div>
-                <h1 className='uppercase font-bold text-xl md:text-2xl italic'>SHIJIN</h1>
+                <h1 className='uppercase font-bold text-xl md:text-3xl italic cursor-pointer text-cyan-300'>SHIJIN</h1>
             </div>
             <div className='hidden lg:flex items-center space-x-10'>
               {navItems.map(({link,path})=>(
                 <Link key={path} className="relative uppercase text-white text-base font-medium w-fit block after:block
                  after:content-[''] after:absolute after:h-[3px] after:bg-cyan-300 after:w-full after:scale-x-0 hover:after:scale-x-100
-                  after:transition duration-300 after:origin-right cursor-pointer"
+                  after:transition duration-300 after:origin-right hover:text-cyan-300 cursor-pointer"
                 to={path} spy={true} offset={-100} smooth={true}>{link}</Link>
               ))}
             </div>
