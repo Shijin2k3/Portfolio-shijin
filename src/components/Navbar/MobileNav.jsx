@@ -13,7 +13,7 @@ const MobileNav = ({closeNav,showNav}) => {
       h-full transform transition-all duration-500 delay-300 w-[80%]
        sm:w-[60%] bg-black space-y-6 z-[1050] `}>
            {navItems.map(({link,path})=>(
-             <Link key={path} to={path} spy={true} offset={-100} smooth={true}
+             <Link onClick={closeNav} key={path} to={path} spy={true} offset={-100} smooth={true}
              className='text-white w-fit text-[20px] ml-12
              border-b-[1.5px] pb-1 border-white sm:text-[30px]
               cursor-pointer '>{link}</Link>
