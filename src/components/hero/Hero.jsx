@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='flex flex-col items-center md:items-start'>
               <h1 className='pb-16 text-4xl font-medium tracking-tight lg:mt-16 lg:text-6xl'>SHIJIN KUMAR</h1>
               <span className='bg-gradient-to-r from-green-300  via-slate-400 to-cyan-400
-               bg-clip-text text-2xl tracking-tight text-transparent'>
+               font-medium bg-clip-text text-2xl tracking-tight text-transparent'>
                 Full Stack Web Developer
               </span>
               <p className=' max-w-xl text-lg mb-8 py-6 font-light tracking-tighter'>I'am a passionate Full Stack Web Developer, I specialize in creating dynamic and responsive web applications 

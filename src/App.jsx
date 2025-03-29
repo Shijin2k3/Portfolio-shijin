@@ -4,6 +4,7 @@ import ResponsiveNav from './components/Navbar/ResponsiveNav'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
 import Education from './components/education/Education'
+import Skills from './components/skills/Skills'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <About />
         <Education />
+        <Skills />
       </div>
      
     

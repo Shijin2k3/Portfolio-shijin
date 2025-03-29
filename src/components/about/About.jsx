@@ -15,35 +15,28 @@ const About = () => {
                        CSS, and JavaScript, and back-end frameworks such as Node.js and Express, I am adept at building seamless, scalable solutions.
                 </p>
                 <div className='space-y-4'>
-                  <div className='flex items-center'>
-                      <label htmlFor="htmlandcss" className='w-2/12'>HTML & CSS</label>
+                  <div className='flex items-center gap-16 md:gap-0'>
+                      <label htmlFor="frontend" className='w-2/12'>Frontend</label>
                       <div className='grow bg-gray-800 rounded-full h-2.5'>
                         <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
                          transform transition-transform duration-300 hover:scale-105 w-10/12 cursor-pointer'></div>
                       </div>
                   </div>
-                  <div className='flex items-center'>
-                      <label htmlFor="react" className='w-2/12'>React Js</label>
+                  <div className='flex items-center gap-16 md:gap-0'>
+                      <label htmlFor="backend" className='w-2/12'>Backend</label>
+                      <div className='grow bg-gray-800 rounded-full h-2.5'>
+                        <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
+                         transform transition-transform duration-300 hover:scale-105 w-10/12 cursor-pointer'></div>
+                      </div> 
+                  </div>
+                  <div className='flex items-center gap-16 md:gap-0'>
+                      <label htmlFor="programming" className='w-2/12'>Programming</label>
                       <div className='grow bg-gray-800 rounded-full h-2.5'>
                         <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
                          transform transition-transform duration-300 hover:scale-105 w-9/12 cursor-pointer'></div>
                       </div> 
                   </div>
-                  <div className='flex items-center'>
-                      <label htmlFor="node" className='w-2/12'>Node Js</label>
-                      <div className='grow bg-gray-800 rounded-full h-2.5'>
-                        <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
-                         transform transition-transform duration-300 hover:scale-105 w-/12 cursor-pointer'></div>
-                      </div> 
-                  </div>
-                  <div className='flex items-center'>
-                      <label htmlFor="next" className='w-2/12'>Next Js</label>
-                      <div className='grow bg-gray-800 rounded-full h-2.5'>
-                        <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full
-                         transform transition-transform duration-300 hover:scale-105 w-8/12 cursor-pointer'></div>
-                      </div> 
-                  </div>
-                </div>
+               </div>
               </div>
            </div>
         </div>
