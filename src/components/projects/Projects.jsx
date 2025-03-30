@@ -7,9 +7,9 @@ import res from '../../assets/res.png'
 import etrack from '../../assets/etracker.png'
 const Projects = () => {
   return (
-    <div className='bg-black text-white py-20' id='projects'>
+    <div className='bg-black text-white pb-20' id='projects'>
         <div className='mx-auto px-8 md:px-16 lg:px-24'>
-           <h1 className='text-4xl font-bold uppercase text-center mb-12'>PROJECTS</h1>
+           <h1 className='text-4xl font-bold uppercase text-center mb-20'>PROJECTS</h1>
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-6 mb-12'>
                {/* project cards */}
               <div className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
