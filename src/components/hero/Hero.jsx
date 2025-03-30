@@ -18,7 +18,8 @@ const Hero = () => {
                  CSS, and JavaScript, and back-end frameworks such as Node.js and Express, I am adept at building seamless, scalable solutions</p>
             </div>
          </div>
-         <div className='w-full  lg:w-[50%] flex items-center justify-center'>
+         <div className='w-full  lg:w-[50%] flex items-center justify-center hover:shadow-lg transform transition-transform
+                     duration-300 hover:scale-105'>
             <img src={profile} alt="profile" className='w-85 h-85 object-cover rounded-full' />
          </div>
 
