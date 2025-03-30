@@ -20,7 +20,7 @@ const Hero = () => {
          </div>
          <div className='w-full  lg:w-[50%] flex items-center justify-center hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105'>
-            <img src={profile} alt="profile" className='w-85 h-85 object-cover rounded-full' />
+            <img src={profile} alt="profile" className='w-85 h-85 object-cover rounded-full border-3 border-cyan-400' />
          </div>
 
         

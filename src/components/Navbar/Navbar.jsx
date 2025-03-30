@@ -10,7 +10,7 @@ const Navbar = ({openNav}) => {
     <div className='w-full h-[12vh] fixed bg-black text-white transition-all duration-200 z-[1000]'>
         <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
             <div>
-                <h1 className='uppercase font-bold text-xl md:text-3xl italic cursor-pointer text-cyan-300'>SHIJIN</h1>
+                <h1 className='uppercase font-bold text-xl md:text-3xl italic cursor-pointer text-cyan-400'>SHIJIN</h1>
             </div>
             <div className='hidden lg:flex items-center space-x-10'>
               {navItems.map(({link,path})=>(

@@ -10,7 +10,7 @@ const Education = () => {
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center  gap-8'>
              {
                 education.map((e,id)=>(
-                    <div key={e.id} className='bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform
+                    <div key={e.id} className='bg-gray-950 px-6 pb-6 rounded-lg hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105 flex flex-col items-center cursor-pointer'>
                         <div>
                         <img src={e.image} alt="" className='mt-8 h-20 w-20 rounded-lg scale-110 overflow-hidden bg-gray-300'/>
