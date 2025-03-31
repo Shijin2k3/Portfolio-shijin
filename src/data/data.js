@@ -1,4 +1,5 @@
 import image from '../assets/education.png'
+import ak from '../assets/ak.jpeg'
 export const navItems=[
     {
       link:'Home',path:'home'
@@ -45,3 +46,24 @@ export const navItems=[
     grade:"8.29 CGPA"
   },
  ] 
+
+ export const experiences=[
+  {
+    id:1,
+    image:ak,
+    company:"AK Info Park",
+    role:"Web Developer Intern",
+    year:"Jan 2024 - Feb 2024 ",
+    description:"Contributed to the development of web application using javscript,html,css,Bootsrap,React and Php.Managed databases and Implemented data storage using MYSQL",
+    technologies:["React.js","PHP","MYSQL","HTML","Bootstrap","Javascript"]
+  },
+  {
+    id:2,
+    image:ak,
+    company:"AK Info Park",
+    role:"Full Stack Web Developer Intern",
+    year:"Feb 2025 - Mar 2025 ",
+    description:"Contributed to the development of Full Stack web application using javscript,html,Tailwind Css,React and Node.js.Managed databases and Implemented data storage using MongoDB",
+    technologies:["React.js","Node.js","MongoDB","HTML","TailwindCss","Typescript"]
+  }
+ ]
