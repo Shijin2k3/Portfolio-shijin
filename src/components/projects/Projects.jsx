@@ -22,7 +22,7 @@ const Projects = () => {
                              bg-gradient-to-r from-green-400 to-blue-500 text-center uppercase'>Travel- Website</h1>
                       <p className='text-lg text-gray-300'>NEXT JS </p>
                    </div>
-                   <div className='flex flex-row justify-between gap-10 md:gap-30 mb-4'>
+                   <div className='flex flex-row justify-between gap-8 md:gap-30 mb-4'>
                        <a href="https://github.com/Shijin2k3/Travel-Website" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>github</a>
                        <a href="https://travel-website-sable-two.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>Demo</a>
                    </div>  
@@ -37,7 +37,7 @@ const Projects = () => {
                              bg-gradient-to-r from-green-400 to-blue-500 text-center uppercase'>Shopsy</h1>
                       <p className='text-lg text-gray-300'>REACT JS</p>
                    </div>
-                   <div className='flex flex-row justify-between gap-10 md:gap-30 mb-4'>
+                   <div className='flex flex-row justify-between gap-8 md:gap-30 mb-4'>
                        <a href="https://github.com/Shijin2k3/Shopsy" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>github</a>
                        <a href="https://shopsy-ashy-nu.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>Demo</a>
                    </div>  
@@ -52,7 +52,7 @@ const Projects = () => {
                              bg-gradient-to-r from-green-400 to-blue-500 text-center uppercase'>SHOPPING-CART</h1>
                       <p className='text-lg text-gray-300'>REACT JS</p>
                    </div>
-                   <div className='flex flex-row justify-between gap-10 md:gap-30 mb-4'>
+                   <div className='flex flex-row justify-between gap-8 md:gap-30 mb-4'>
                        <a href="https://github.com/Shijin2k3/shopping-cart" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>github</a>
                        <a href="https://shopping-cart-amber-ten.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>Demo</a>
                    </div>  
@@ -67,7 +67,7 @@ const Projects = () => {
                              bg-gradient-to-r from-green-400 to-blue-500 text-center uppercase'>TODO-LIST</h1>
                       <p className='text-lg text-gray-300'>MERN STACK</p>
                    </div>
-                   <div className='flex flex-row justify-between gap-10 md:gap-30 mb-4'>
+                   <div className='flex flex-row justify-between gap-8 md:gap-30 mb-4'>
                        <a href="https://github.com/Shijin2k3/TODO-MERN" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>github</a>
                    </div>  
               </div>
@@ -81,7 +81,7 @@ const Projects = () => {
                              bg-gradient-to-r from-green-400 to-blue-500 text-center uppercase'>RES-LANDING-PAGE</h1>
                       <p className='text-lg text-gray-300'>HTML,CSS,JS</p>
                    </div>
-                   <div className='flex flex-row justify-between gap-10 md:gap-30 mb-4'>
+                   <div className='flex flex-row justify-between gap-8 md:gap-30 mb-4'>
                        <a href="https://github.com/Shijin2k3/Restaurant-Landing-Page" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>github</a>
                    </div>  
               </div>
@@ -95,7 +95,7 @@ const Projects = () => {
                              bg-gradient-to-r from-green-400 to-blue-500 text-center uppercase'>EXPENSE-TRACKER</h1>
                       <p className='text-lg text-gray-300'>REACT JS</p>
                    </div>
-                   <div className='flex flex-row justify-between gap-10 md:gap-30 mb-4'>
+                   <div className='flex flex-row justify-between gap-8 md:gap-30 mb-4'>
                        <a href="https://github.com/Shijin2k3/Expense-Tracker" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>github</a>
                        <a href="https://expense-tracker-rosy-three.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-2 px-5'>Demo</a>
                    </div>  

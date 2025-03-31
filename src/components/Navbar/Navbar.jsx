@@ -6,6 +6,13 @@ import { navItems } from '../../data/data'
 
 const Navbar = ({openNav}) => {
   
+    const email="shijinkumar2003@gmail.com";
+    const subject='hello from your portfolio';
+    const body='Hi , Iwould like to connect with you';
+    const mailToLink=`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  
+
+  
   return (
     <div className='w-full h-[12vh] fixed bg-black text-white transition-all duration-200 z-[1000]'>
         <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
@@ -21,10 +28,11 @@ const Navbar = ({openNav}) => {
               ))}
             </div>
             <div className='flex  items-center space-x-4'>
+                <a href={mailToLink}>
                 <button className='hidden md:block md:px-12 md:py-2.5 px-8 py-2 text-black
-                 text-base  bg-white hover:bg-gray-200
-                  transition-all duration-200 rounded-lg'>Connect Me</button>
-
+                 text-base  bg-cyan-400 hover:bg-cyan-300
+                  cursor-pointer transition-all duration-200 rounded-lg'>Connect Me</button>
+                </a> 
                   <HiMiniBars3BottomLeft  onClick={openNav}  className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
             </div>
         </div>
