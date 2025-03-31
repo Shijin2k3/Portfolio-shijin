@@ -15,7 +15,7 @@ const Contact = () => {
                 className='w-72 h-80 rounded object-cover mb-8 md:mb-0'/>
              </div>
              <div className='flex flex-col  md:items-start mt-4 pb-8 p-2'>
-                <h1 className='text-4xl font-semibold mb-4'>Let's talk</h1>
+                <h1 className='text-4xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Let's talk</h1>
                 <p className='text-lg text-gray-400 mb-4'>I'm Open to talk about web development projects and partneship projects </p>
                  <div className='mb-8 mt-4 text-white text-2xl mr-2 '>
                     <FaEnvelope className='inline-block' />

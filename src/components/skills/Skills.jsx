@@ -50,6 +50,13 @@ const Skills = () => {
                 </div>
                
              </div>
+             <div className='flex items-center justify-center mb-10 mt-20'>
+                 <a href='https://github.com/Shijin2k3' >
+                    <button className='font-medium md:px-12 md:py-2.5 px-4 py-2 text-black
+                     text-base  bg-cyan-400 hover:bg-cyan-300
+                    cursor-pointer transition-all duration-200 rounded-lg'>View Github</button>
+                 </a>
+             </div>
              
         </div>
     </div>
