@@ -18,9 +18,9 @@ const Education = () => {
                         <div className='flex flex-col items-center'>
                             <h2 className='mt-8 font-bold  text-transparent bg-clip-text
                              bg-gradient-to-r from-green-400 to-blue-500 text-center'>{e.name}</h2>
-                             <p className='mt-2 text-gray-300'>{e.address}</p>
+                             <p className='mt-2 text-gray-300 text-center'>{e.address}</p>
                              <p className='mt-2 text-white text-xl'>{e.year}</p>
-                             <p className='mt-2 text-gray-300'>{e.class}</p>
+                             <p className='mt-2 text-gray-300 text-center'>{e.class}</p>
                              <h2 className='mt-4 font-bold text-2xl text-transparent bg-clip-text
                              bg-gradient-to-r from-green-400 to-blue-500'>{e.grade}</h2>
                         </div>

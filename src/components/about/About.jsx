@@ -6,9 +6,9 @@ const About = () => {
     <div className='bg-black text-white pb-10 ' id='about'>
         <div className=' mx-auto px-8 md:px-16 lg:px-24'>
             <h1 className='text-4xl font-bold uppercase text-center mb-12'>About Me</h1>
-            <div className='flex flex-col md:flex-row  items-center md:space-x-12'>
+            <div className='flex flex-col lg:flex-row  items-center lg:space-x-12'>
                 <img src={about} alt=""
-                className='w-72 h-80 rounded object-cover mb-8 md:mb-0' />
+                className='w-72 h-80 rounded object-cover mb-8 lg:mb-0' />
              <div className='flex-1'>
                 <p className='text-lg mb-8'>I'am a passionate Full Stack Web Developer, I specialize in creating dynamic and responsive web applications 
                       that deliver exceptional user experiences. With a strong foundation in both front-end technologies like HTML,

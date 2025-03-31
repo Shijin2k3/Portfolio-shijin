@@ -55,7 +55,7 @@ export const navItems=[
     role:"Web Developer Intern",
     year:"Jan 2024 - Feb 2024 ",
     description:"Contributed to the development of web application using javscript,html,css,Bootsrap,React and Php.Managed databases and Implemented data storage using MYSQL",
-    technologies:["React.js","PHP","MYSQL","HTML","Bootstrap","Javascript"]
+    technologies:["React.js","PHP","MYSQL","JS"]
   },
   {
     id:2,
@@ -64,6 +64,6 @@ export const navItems=[
     role:"Full Stack Web Developer Intern",
     year:"Feb 2025 - Mar 2025 ",
     description:"Contributed to the development of Full Stack web application using javscript,html,Tailwind Css,React and Node.js.Managed databases and Implemented data storage using MongoDB",
-    technologies:["React.js","Node.js","MongoDB","HTML","TailwindCss","Typescript"]
+    technologies:["React.js","Node.js","MongoDB"]
   }
  ]
