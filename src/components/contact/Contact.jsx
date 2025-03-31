@@ -4,6 +4,7 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa'
 import { FaMapLocation } from 'react-icons/fa6'
 import resume from '../../assets/resume.pdf'
 
+
 const Contact = () => {
   return (
     <div className='bg-black text-white pb-20' id='contact'>
@@ -30,7 +31,7 @@ const Contact = () => {
                     <span className='ml-3 text-sm md:text-lg'>Tamilnadu</span>
                  </div>
                  <a href={resume} download='My_Resume.pdf'>
-                  <button className='font-medium md:px-12 md:py-2.5 px-4 py-2 text-black
+                  <button className='font-medium md:px-6 md:py-2.5 px-4 py-2 text-black
                                    text-base  bg-cyan-400 hover:bg-cyan-300
                                    cursor-pointer transition-all duration-200 rounded-lg'>Download Resume</button>
                   </a>
