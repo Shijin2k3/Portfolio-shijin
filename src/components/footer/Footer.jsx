@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMailBulk } from 'react-icons/fa'
+import { FaArrowUp, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMailBulk } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -33,7 +34,16 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
+              {/* scroll */}
+            <div id='icon-box' className='hover:bg-gray-800 hover:text-cyan-400 p-3 rounded-full
+             bg-cyan-400 text-black cursor-pointer fixed lg:bottom-6 right-6 
+              bottom-6'>
+             <Link to='home' spy={true} offset={-100} smooth={true}>
+             <FaArrowUp className='w-[35px] h-[35px] '/>
+             </Link>
+            </div>
         </div>
+        
     </footer>
   )
 }
