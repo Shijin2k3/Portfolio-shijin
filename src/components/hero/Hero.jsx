@@ -16,16 +16,16 @@ const Hero = () => {
     <div className='relative w-full min-h-screen mt-10 bg-black text-white py-20'>
       <div className='w-[90%] xl:w-[80%] m-auto flex flex-col md:flex-row  items-center md:space-x-12 '>
          <div className='w-full lg:w-[50%] '>
-            <div className='flex flex-col items-center md:items-start'>
+            <div className='flex flex-col items-center justify-center  md:items-start'>
               <motion.h1 variants={container(0)} initial='hidden' animate='visible' 
-              className='pb-16 text-4xl font-medium tracking-tight lg:mt-16 lg:text-6xl'>SHIJIN KUMAR</motion.h1>
+              className='pb-16 text-4xl font-medium tracking-tight lg:mt-16 lg:text-6xl '>SHIJIN KUMAR</motion.h1>
               <motion.span variants={container(0.5)} initial='hidden' animate='visible'
                className='bg-gradient-to-r from-green-300  via-slate-400 to-cyan-400
                font-medium bg-clip-text text-2xl tracking-tight text-transparent'>
                 Full Stack Web Developer
               </motion.span>
               <motion.p variants={container(1)} initial='hidden' animate='visible'
-               className=' max-w-xl text-lg mb-8 py-6 font-light tracking-tighter'>I'am a passionate Full Stack Web Developer, I specialize in creating dynamic and responsive web applications 
+               className=' max-w-xl text-lg mb-8 py-6 font-light tracking-tighter '>I'am a passionate Full Stack Web Developer, I specialize in creating dynamic and responsive web applications 
                 that deliver exceptional user experiences. With a strong foundation in both front-end technologies like HTML,
                  CSS, and JavaScript, and back-end frameworks such as Node.js and Express, I am adept at building seamless, scalable solutions</motion.p>
             </div>

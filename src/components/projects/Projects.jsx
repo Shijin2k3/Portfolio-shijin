@@ -5,6 +5,8 @@ import cart from '../../assets/cart.png'
 import todo from '../../assets/todo.png'
 import res from '../../assets/res.png'
 import etrack from '../../assets/etracker.png'
+import { motion } from 'framer-motion'
+
 const Projects = () => {
   return (
     <div className='bg-black text-white pb-20' id='projects'>
@@ -12,7 +14,8 @@ const Projects = () => {
            <h1 className='text-4xl font-bold uppercase text-center mb-20'>PROJECTS</h1>
            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 items-center gap-8 mb-12'>
                {/* project cards */}
-              <div className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
+              <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:1}}
+              className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105 flex flex-col items-center'>
                    <div className='mt-4'>
                       <img src={travel} alt="" className='w-60 h-40 rounded-2xl  border-1 border-neutral-800' />
@@ -26,8 +29,9 @@ const Projects = () => {
                        <a href="https://github.com/Shijin2k3/Travel-Website" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Github</a>
                        <a href="https://travel-website-sable-two.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Demo</a>
                    </div>  
-              </div>
-              <div className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
+              </motion.div>
+              <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:1}}
+              className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105 flex flex-col items-center'>
                    <div className='mt-4'>
                       <img src={shopsy} alt="" className='w-60 h-40 rounded-2xl  border-1 border-neutral-800'/>
@@ -41,8 +45,9 @@ const Projects = () => {
                        <a href="https://github.com/Shijin2k3/Shopsy" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Github</a>
                        <a href="https://shopsy-ashy-nu.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Demo</a>
                    </div>  
-              </div>
-              <div className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
+              </motion.div>
+              <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:1}} 
+              className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105 flex flex-col items-center'>
                    <div className='mt-4'>
                    <img src={cart} alt="" className='w-60 h-40 rounded-2xl  border-1 border-neutral-800' />
@@ -56,8 +61,9 @@ const Projects = () => {
                        <a href="https://github.com/Shijin2k3/shopping-cart" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Github</a>
                        <a href="https://shopping-cart-amber-ten.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Demo</a>
                    </div>  
-              </div>
-              <div className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
+              </motion.div>
+              <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1,delay:0.5}} 
+              className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105 flex flex-col items-center'>
                    <div className='mt-4'>
                    <img src={todo} alt="" className='w-60 h-40 rounded-2xl  border-1 border-neutral-800'/>
@@ -70,8 +76,9 @@ const Projects = () => {
                    <div className='flex flex-row justify-between gap-4 md:gap-20 mb-2 md:mb-4'>
                        <a href="https://github.com/Shijin2k3/TODO-MERN" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Github</a>
                    </div>  
-              </div>
-              <div className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
+              </motion.div>
+              <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1,delay:0.5}} 
+              className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105 flex flex-col items-center'>
                    <div className='mt-4'>
                    <img src={res} alt="" className='w-60 h-40 rounded-2xl  border-1 border-neutral-800' />
@@ -84,8 +91,9 @@ const Projects = () => {
                    <div className='flex flex-row justify-between gap-4 md:gap-20 mb-2 md:mb-4'>
                        <a href="https://github.com/Shijin2k3/Restaurant-Landing-Page" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Github</a>
                    </div>  
-              </div>
-              <div className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
+              </motion.div>
+              <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1,delay:0.5}} 
+              className='rounded-2xl border-4 border-cyan-400 p-4 hover:shadow-lg transform transition-transform
                      duration-300 hover:scale-105 flex flex-col items-center'>
                    <div className='mt-4'>
                    <img src={etrack} alt="" className='w-60 h-40 rounded-2xl  border-1 border-neutral-800'/>
@@ -99,7 +107,7 @@ const Projects = () => {
                        <a href="https://github.com/Shijin2k3/Expense-Tracker" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Github</a>
                        <a href="https://expense-tracker-rosy-three.vercel.app/" className='rounded-2xl border-1 hover:border-neutral-800 border-cyan-300 py-1 md:py-2 px-4 md:px-5 text-sm md:text-md text-center'>Demo</a>
                    </div>  
-              </div>
+              </motion.div>
            </div>
         </div>
     </div>

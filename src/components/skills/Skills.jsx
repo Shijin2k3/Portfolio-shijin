@@ -23,7 +23,7 @@ const Skills = () => {
     <div className='bg-black text-white pb-10' id='skills'>
         <div className='mx-auto px-8 md:px-16 lg:px-24'>
            <h1 className='text-4xl font-bold uppercase text-center mb-12'>What i do</h1>
-             <motion.h2 whileInView={{opacity:1,x:0}} initial={{opacity:0,x:90}} transition={{duration:0.4}}
+             <motion.h2 whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1.5}}
               className='text-xl font-medium text-center text-gray-400 mb-12'>" CRAZY FULLSTACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK "</motion.h2>
 
              <div className='flex flex-wrap items-center justify-center gap-4 mb-12'>
