@@ -30,7 +30,7 @@ const Contact = () => {
                  <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5,delay:1.5}}
                  className='mb-8  text-white text-2xl mr-2 '>
                     <FaPhone className='inline-block' />
-                    <span className='ml-3 text-sm md:text-lg'>+91-858984118</span>
+                    <span className='ml-3 text-sm md:text-lg'>+91-8589841118</span>
                  </motion.div>
                  <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5,delay:1.5}}
                  className='mb-8  text-white text-2xl mr-2 '>
