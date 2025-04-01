@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (
-    <div className='bg-black text-white pb-20' id='contact'>
+    <div className='bg-black text-white pb-20'  id='contact'>
        <div className='mx-auto px-8 md:px-16 lg:px-24'>
           <h1 className='text-4xl font-bold uppercase text-center mb-20'>CONTACT ME</h1>
           <div className='flex flex-col md:flex-row  items-center md:space-x-12 md:gap-30'>

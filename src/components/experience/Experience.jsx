@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Experience = () => {
   return (
-    <div className='bg-black text-white pb-20' id='contact'>
+    <div className='bg-black text-white pb-20'>
        <div className='mx-auto px-8 md:px-16 lg:px-24'>
           <motion.h1 whileInView={{opacity:1,y:0}} initial={{opacity:0,y:-100}} transition={{duration:0.5}}
            className='text-4xl font-bold uppercase text-center mb-20'>Experience</motion.h1>
