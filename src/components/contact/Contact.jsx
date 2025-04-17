@@ -38,7 +38,7 @@ const Contact = () => {
                     <span className='ml-3 text-sm md:text-lg'>Tamilnadu</span>
                  </motion.div>
                  <motion.a whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.5,delay:1.5}}
-                 href={resume} download='My_Resume.pdf'>
+                 href={resume} download='Shijin_Resume.pdf'>
                   <button className='font-medium md:px-6 md:py-2.5 px-4 py-2 text-black
                                    text-base  bg-cyan-400 hover:bg-cyan-300
                                    cursor-pointer transition-all duration-200 rounded-lg'>Download Resume</button>
