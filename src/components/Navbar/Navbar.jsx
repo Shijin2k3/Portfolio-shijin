@@ -8,7 +8,7 @@ const Navbar = ({openNav}) => {
   
     const email="shijinkumar2003@gmail.com";
     const subject='hello from your portfolio';
-    const body='Hi , Iwould like to connect with you';
+    const body='Hi , I would like to connect with you';
     const mailToLink=`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   
 
