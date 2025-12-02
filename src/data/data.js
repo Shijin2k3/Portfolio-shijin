@@ -48,14 +48,23 @@ export const navItems=[
  ] 
 
  export const experiences=[
-  {
-    id:1,
+   {
+    id:4,
     image:ak,
-    company:"AK Info Park",
-    role:"Web Developer Intern",
-    year:"Jan 2024 - Feb 2024 ",
-    description:"Contributed to the development of web application using javascript,html,css,Bootstrap,React and Php.Managed databases and Implemented data storage using MYSQL",
-    technologies:["React.js","PHP","MYSQL","JS"]
+    company:"ITOI Technologies",
+    role:"Junior Backend Developer",
+    year:"Jun 2025 - Present ",
+    description:"Contributed to the development of web application using javascript,Typescript,Prisma,Nest js and Implemented data storage using MYSQL",
+    technologies:["React.js","Nest js","MYSQL","Prisma","figma"]
+  },
+    {
+    id:3,
+    image:ak,
+    company:"Agile Tribers",
+    role:"App Developer Intern",
+    year:"May 2025 - jun 2025 ",
+    description:"Contributed to the development of App  using javascript,React Native and designed a simple project named Movie mania",
+    technologies:["React.js","React Native","Tailwind Css","JS"]
   },
   {
     id:2,
@@ -66,23 +75,15 @@ export const navItems=[
     description:"Contributed to the development of Full Stack web application using javascript,html,Tailwind Css,React and Node.js.Managed databases and Implemented data storage using MongoDB",
     technologies:["React.js","Node.js","MongoDB"]
   },
-  {
-    id:3,
+ {
+    id:1,
     image:ak,
-    company:"Agile Tribers",
-    role:"App Developer Intern",
-    year:"May 2025 - jun 2025 ",
-    description:"Contributed to the development of App  using javascript,React Native and designed a simple project named Movie mania",
-    technologies:["React.js","React Native","Tailwind Css","JS"]
+    company:"AK Info Park",
+    role:"Web Developer Intern",
+    year:"Jan 2024 - Feb 2024 ",
+    description:"Contributed to the development of web application using javascript,html,css,Bootstrap,React and Php.Managed databases and Implemented data storage using MYSQL",
+    technologies:["React.js","PHP","MYSQL","JS"]
   },
-  {
-    id:4,
-    image:ak,
-    company:"ITOI Technologies",
-    role:"Junior Backend Developer",
-    year:"Jun 2025 - Present ",
-    description:"Contributed to the development of web application using javascript,Typescript,Prisma,Nest js and Implemented data storage using MYSQL",
-    technologies:["React.js","Nest js","MYSQL","Prisma","figma"]
-  }
+
 
  ]
