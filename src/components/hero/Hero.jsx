@@ -13,7 +13,7 @@ const container=(delay) =>({
 const Hero = () => {
   return (
     <div className='bg-black pb-10'  id='home'>
-    <div className='relative w-full min-h-screen mt-10 bg-black text-white py-20'>
+    <div className='relative w-full   mt-10 bg-black text-white py-20'>
       <div className='w-[90%] xl:w-[80%] m-auto flex flex-col md:flex-row  items-center md:space-x-12 '>
          <div className='w-full lg:w-[50%] '>
             <div className='flex flex-col items-center justify-center  md:items-start'>

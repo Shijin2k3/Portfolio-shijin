@@ -1,12 +1,12 @@
 import React from 'react'
-import { FaCss3Alt, FaGithub, FaHtml5, FaJsSquare, FaNodeJs, FaPython } from 'react-icons/fa'
+import { FaCss3Alt, FaDatabase, FaGithub, FaHtml5, FaJsSquare, FaNodeJs, FaPython } from 'react-icons/fa'
 import { RiReactjsLine } from 'react-icons/ri'
-import { SiMongodb } from 'react-icons/si'
+import { SiMongodb, SiNestjs, SiPrisma } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { motion } from 'framer-motion'
 
 const iconVariants=(duration)=>({
-    inital:{y:-10},
+    initial:{y:-10},
     animate:{
         y:[10,-10],
         transition:{
@@ -72,6 +72,22 @@ const Skills = () => {
                      duration-300 hover:scale-105'>
                     <FaGithub  className='text-white text-7xl'/>
                 </motion.div>
+                <motion.div variants={iconVariants(3)} initial='initial' animate='animate'
+                className='rounded-2xl border-4 border-neutral-800 p-4 hover:shadow-lg transform transition-transform
+                     duration-300 hover:scale-105'>
+                    <SiNestjs  className='text-red-600 text-7xl'/>
+                </motion.div>
+                <motion.div variants={iconVariants(3)} initial='initial' animate='animate'
+                className='rounded-2xl border-4 border-neutral-800 p-4 hover:shadow-lg transform transition-transform
+                     duration-300 hover:scale-105'>
+                    <SiPrisma  className='text-white text-7xl'/>
+                </motion.div>
+                <motion.div variants={iconVariants(3)} initial='initial' animate='animate'
+                className='rounded-2xl border-4 border-neutral-800 p-4 hover:shadow-lg transform transition-transform
+                     duration-300 hover:scale-105'>
+                    <FaDatabase  className='text-blue-400 text-7xl'/>
+                </motion.div>
+
                
              </div>
              <div className='flex items-center justify-center mb-10 mt-20'>
